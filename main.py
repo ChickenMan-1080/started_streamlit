@@ -1,4 +1,5 @@
 import streamlit as st
+import pandas as pd  
 
 with st.echo(): #แสดง code
     st.title('Hi')
@@ -39,9 +40,6 @@ with st.echo(): #แสดง code
         
     #Output and DataFrame
     st.markdown('# output and DataFrame')
-
-    import pandas as pd
-    from numpy.random import default_rng as rng
 
 
     df = pd.DataFrame({
