@@ -53,4 +53,5 @@ with st.echo(): #แสดง code
     if show_plot : # เพิ่มเติม เช็คว่า ข้อมูลมีค่าไหม หากมีจะคืน True
         st.line_chart(df,x='first_col',y='sec_col')
         
-        
+
+st.markdown('# i')
